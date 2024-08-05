@@ -44,7 +44,8 @@ public class Task {
     }
 
     public Task(int id, String description, Boolean completed, user user, ArrayList<comentario> listComment) {
-        this.id = id;
+        this.id = id = 1;
+        id++;
         this.description = description;
         this.completed = completed;
         this.user = user;

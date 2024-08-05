@@ -13,7 +13,7 @@ import User.user;
 public class comentario {
     private int id;
     private user user;
-    private String contario;
+    private String comentario;
 
     public int getId() {
         return id;
@@ -24,17 +24,17 @@ public class comentario {
     }
 
     public String getContario() {
-        return contario;
+        return comentario;
     }
 
     public void setContario(String contario) {
-        this.contario = contario;
+        this.comentario = contario;
     }
 
     public comentario(int id, user user, String contario) {
         this.id = id;
         this.user = user;
-        this.contario = contario;
+        this.comentario = contario;
     }
 
     public comentario() {
