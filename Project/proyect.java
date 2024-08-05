@@ -24,11 +24,11 @@ public class proyect {
         return name;
     }
 
-    public HashSet<Tarea> getListaTarea() {
+    public HashSet<Task> getListaTarea() {
         return listaTarea;
     }
 
-    public proyect(int id, String name, HashSet<Tarea> listaTarea) {
+    public proyect(int id, String name, HashSet<Task> listaTarea) {
         this.id = id;
         this.name = name;
         this.listaTarea = new HashSet();
