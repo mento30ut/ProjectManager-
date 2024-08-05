@@ -14,7 +14,7 @@ import task.Task;
 public class proyect {
     private int id;
     private String name;
-    private HashSet<Task> listTask;
+    private HashSet<Task> listaTarea;
 
     public int getId() {
         return id;
@@ -24,14 +24,14 @@ public class proyect {
         return name;
     }
 
-    public HashSet<Task> getlistTask() {
-        return listTask;
+    public HashSet<Task> getListaTarea() {
+        return listaTarea;
     }
 
     public proyect(int id, String name, HashSet<Task> listaTarea) {
         this.id = id;
         this.name = name;
-        this.listTask = new HashSet();
+        this.listaTarea = new HashSet();
     }
 
     public proyect() {
